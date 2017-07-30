@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     
     func startNewRound() {
         targetValue = 1 + Int(arc4random_uniform(100))
-        currentValue = 50
+        currentValue = lroundf(slider.value)
         slider.value = Float(currentValue)
     }
     
