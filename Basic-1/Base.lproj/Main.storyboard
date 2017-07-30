@@ -105,6 +105,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="scoreLabel" destination="88H-SV-gpS" id="eVr-3T-wIW"/>
                         <outlet property="slider" destination="aCp-mX-er3" id="M3q-Db-H7w"/>
                         <outlet property="targetLabel" destination="NIH-br-TzM" id="5r0-Nv-4P2"/>
                     </connections>
